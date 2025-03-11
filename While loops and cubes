@@ -1,0 +1,18 @@
+/*
+While Loops cubes
+author: Nancy Kigacha
+Reg No:D33-2424-2023
+*/
+
+#include <stdio.h>
+
+int main() {
+    int i = 1; // start
+
+    while (i <= 100) { // stop 
+        printf("Number: %d, Cube: %d\n", i, i * i * i);
+        i++; // step
+    }
+
+    return 0; // successful execution
+}
