@@ -1,0 +1,24 @@
+/*
+For looops cubes
+author: Kigacha Nancy Gakii
+Reg No:D33-2424-2023
+*/
+
+#include <stdio.h>
+
+int main() {
+    int start, stop, i;
+
+    printf("Enter a starting value: \n");
+    scanf("%d", &start);
+
+    printf("Enter a stopping value:\n");
+    scanf("%d", &stop);
+
+        for (i = start; i <= stop; i++) {
+            printf("Number: %d, Cube: %d\n", i, i * i * i);
+        }
+    
+
+    return 0; // Successful execution
+}
